@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/m_comojugar"
+        android:title="@string/m_howto"/>
+     <item
+        android:id="@+id/m_acerca"
+        android:title="@string/m_about"/>
+
+</menu>
