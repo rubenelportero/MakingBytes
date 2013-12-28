@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tacha Lineas</string>
+    <string name="m_howto">Como jugar</string>
+    <string name="m_about">Acerca de</string>
+    <string name="autor_1">Tacha Lineas ha sido desarrollado por</string>
+    <string name="autor_2">Making Bytes, un humilde estudio</string>
+    <string name="autor_3">independiente con ganas de aprender,</string>
+    <string name="autor_4">superarse y crecer día a día.</string>
+    <string name="autor_5">Más Información y contacto:</string>
+    <string name="autor_web1">http://www.makingbytes.com</string>
+    <string name="autor_web2">http://www.rubenelportero.net</string>
+    <string name="autor_nombre">Rubén García Segovia</string>
+    <string name="mp_opcion1">1 Jugador</string>
+    <string name="mp_opcion2">2 Jugadores</string>    
+    <string name="mp_opcion3">Información</string>
+    <string name="boton_turno">Fin Turno</string>
+    <string name="jugadoruno">Jugador 1</string>
+    <string name="jugadordos">Jugador 2</string>
+    <string name="notachasbien">No puedes tachar ni vertical ni diagonalmente</string>
+    <string name="notachasnada">No has tachado nada</string>
+    <string name="ganador">El ganador es el </string>
+    <string name="comojugar_1">La mecánica del juego es bastante sencilla,</string>
+    <string name="comojugar_2">se elige al azar (entre los jugadores) quién</string>
+    <string name="comojugar_3">será el jugador 1, y se irán tachando por</string>
+    <string name="comojugar_4">turnos las líneas del tablero, aunque con</string>
+    <string name="comojugar_5">una peculiar norma: únicamente se puede</string>
+    <string name="comojugar_6">tachar horizontalmente.</string>
+    <string name="comojugar_7">Al final de la partida, perderá el que tachó</string>
+    <string name="comojugar_8">en el último turno de juego.</string>
+    <string name="dificultad">Seleccione dificultad:</string>
+    <string name="Facil">Fácil</string>  
+    <string name="Medio">Medio</string>  
+    <string name="Dificil">Difícil</string>  
+    <string name="Invencible">Invencible</string>   
+    <string name="empezar">Empezar</string>
+    <string name="ganadorhumano">El ganador ha sido el jugador</string>
+    <string name="ganadorcpu">El ganador ha sido la máquina</string>
+</resources>
