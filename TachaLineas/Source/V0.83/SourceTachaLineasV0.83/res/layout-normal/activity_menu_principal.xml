@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo2"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MenuPrincipal" >
+
+    <com.google.ads.AdView
+        android:id="@+id/ad"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="**********************"
+        ads:loadAdOnCreate="true" >
+    </com.google.ads.AdView>
+
+    <TextView
+        android:id="@+id/mp_opcion1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="94dp"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:text="@string/mp_opcion1"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#B80000"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/mp_opcion2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/mp_opcion3"
+        android:layout_below="@+id/mp_opcion1"
+        android:layout_marginTop="42dp"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:text="@string/mp_opcion2"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#B80000"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/mp_opcion3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mp_opcion2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="53dp"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:text="@string/mp_opcion3"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#B80000"
+        android:textSize="40sp" />
+
+</RelativeLayout>
