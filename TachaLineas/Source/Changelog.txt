@@ -19,3 +19,16 @@
  -Añadido sistema de puntuación.
  -Añadido sistema de compartir. 
 
+**V1.1:
+-Arreglo de un bug en la IA de nivel invencible y difícil.
+-Añadida opción de salir a mitad de una partida en curso.
+-Añadida publicidad en la pantalla "Score".
+
+**V1.2:
+-Integración con Google Play Games Services.
+-Logros desbloqueables
+-Ranking on-line con las mejores puntuaciones.
+-Migrado el código de Admob a google play ads.
+-La publicidad ahora es cargada por código java, no en el .xml
+-Arreglaros otras cosas sin mucha importancia.
+

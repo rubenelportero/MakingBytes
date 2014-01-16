@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- TODO: Replace this by your app's app ID! -->
+    <string name="app_id">XXXXXXXXXX</string>
+    <string name="logro_bienvenido">CgkI5ajYoP4SEAIQBg</string>
+    <string name="logro_facil_10">CgkI5ajYoP4SEAIQAQ</string>
+    <string name="logro_medio_10">CgkI5ajYoP4SEAIQAg</string>
+    <string name="logro_dificil_10">CgkI5ajYoP4SEAIQAw</string>
+    <string name="logro_multijugador_5">CgkI5ajYoP4SEAIQBQ</string>
+    <string name="logro_compartir_5">CgkI5ajYoP4SEAIQBA</string>
+    <string name="logro_aburrido">CgkI5ajYoP4SEAIQCg</string>
+    <string name="marcador_facil">CgkI5ajYoP4SEAIQBw</string>
+    <string name="marcador_medio">CgkI5ajYoP4SEAIQCA</string>
+    <string name="marcador_dificil">CgkI5ajYoP4SEAIQCQ</string>
+</resources>

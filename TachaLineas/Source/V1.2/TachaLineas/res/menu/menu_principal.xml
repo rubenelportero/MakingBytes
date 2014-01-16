@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/m_comojugar"
+        android:title="@string/m_howto"/>
+    <item
+        android:id="@+id/m_acerca"
+        android:title="@string/m_about"/>
+    <item
+        android:id="@+id/m_logros"
+        android:title="@string/m_logros"/>
+    <item
+        android:id="@+id/m_marcador"
+        android:title="@string/m_marcador">
+        <menu>
+            <item android:id="@+id/item1" android:title="@string/Facil"/>
+            <item android:id="@+id/item2" android:title="@string/Medio"/>
+            <item android:id="@+id/item3" android:title="@string/Dificil"/>
+        </menu>
+    </item>
+
+</menu>

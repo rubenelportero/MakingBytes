@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.MakingBytes.tachalineas"
+    android:versionCode="12"
+    android:versionName="1.2" >
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="19" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        <activity
+            android:name="com.MakingBytes.tachalineas.MenuPrincipal"
+            android:screenOrientation="portrait" >
+        </activity>
+        <meta-data android:name="com.google.android.gms.games.APP_ID"
+             android:value="@string/app_id" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <activity
+            android:name="com.MakingBytes.tachalineas.Autor"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.MakingBytes.tachalineas.FinPartida"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.MakingBytes.tachalineas.ComoJugar"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.MakingBytes.tachalineas.Dosjugadores"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.MakingBytes.tachalineas.Configurarjuego"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.MakingBytes.tachalineas.Dificiljuego"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.MakingBytes.tachalineas.Faciljuego"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.MakingBytes.tachalineas.MedioJuego"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.MakingBytes.tachalineas.ImposibleJuego"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.MakingBytes.tachalineas.Splash"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.google.android.gms.ads.AdActivity"
+             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+    </application>
+</manifest>
